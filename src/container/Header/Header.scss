@@ -1,0 +1,30 @@
+@use "assets/scss/presets" as *;
+
+.header {
+  width: 100%;
+  
+  height: $header-height;
+  min-height: $header-height;
+  padding: 0.625em 3.875em 0.625em 3.875em;
+
+
+  background-color: #221F1F;
+
+  display: flex;
+  align-items: center;
+
+  &__left-bar {
+    display: flex;
+    align-items: center;
+
+    flex-grow: 1;
+  }
+
+  &__right-bar {
+    display: flex;
+    align-items: center;
+    
+    gap: 5px;
+  }
+}
+

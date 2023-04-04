@@ -1,0 +1,11 @@
+@use "assets/scss/presets" as *;
+
+.logo {
+  position: relative;
+}
+
+.logo-img {
+  position: absolute;
+  top: calc(50% - 25px);
+  width: 50px;
+}

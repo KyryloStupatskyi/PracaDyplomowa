@@ -1,0 +1,13 @@
+@use "assets/scss/presets" as *;
+
+.card-logo {
+  display: flex;
+  align-items: center;
+
+  gap: 5px;
+
+  &__title {
+    border-right: solid 2px #fff;
+    padding-right: 10px;
+  }
+}

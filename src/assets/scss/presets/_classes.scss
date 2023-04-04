@@ -1,0 +1,14 @@
+.btn-header {
+  display: flex;
+  align-items: center;
+
+  background-color: transparent;
+  border-color: transparent;
+
+  &__title {
+    font-family: 'Stylish', sans-serif;
+    font-size: 1.25rem;
+  
+    color: #fff;
+  }
+}
